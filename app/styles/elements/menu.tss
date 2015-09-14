@@ -1,0 +1,6 @@
+".menu": { backgroundColor: '#fff', separatorColor: 'transparent' }
+	".hv[platform=ios]": { height: 40 }
+	".hv[platform=android]": { height: 0 }
+	".lv-item": { height: 48, backgroundColor: '#fff', selectedBackgroundColor: '#fff' }
+		".lv-icon": { width: 24, height: 24, left: 16 }
+		".lv-title": { left: 72, right: 16, color: '#000', font: { fontSize: 14 } }

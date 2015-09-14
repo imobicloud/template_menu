@@ -1,5 +1,0 @@
-".menu": { backgroundColor: '#1a1a1a' }
-	".hv[platform=ios]": { height: 40 }
-	".hv[platform=android]": { height: 0 }
-	".lv-item": { backgroundColor: '#1a1a1a', selectedBackgroundColor: '#121212' }
-		".lv-title": { color: '#979797' }

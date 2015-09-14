@@ -1,0 +1,2 @@
+".page" : { backgroundColor: '#fff' }
+	".page-content": { color: '#000', font: { fontSize: 14 } }

@@ -14,7 +14,14 @@ function init() {
 	Alloy.Globals.WinManager = winManager;	
 	
     // load UI
-    winManager.load({ url: 'home' });
+    winManager.load({ 
+    	url: 'home',
+    	data: {
+    		title: 'Home',
+		 	url: 'elements/page',
+		 	params: {}
+    	}
+    });
 };
 
 function exitConfirm() {

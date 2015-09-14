@@ -1,0 +1,7 @@
+<Alloy>
+	<View class="page">
+		
+		<Label class="page-content">Content</Label>
+		
+	</View>
+</Alloy>

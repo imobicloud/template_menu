@@ -15,7 +15,7 @@ function init() {
 }
 
 exports.init = function(cache) {
-	menuInit();
+	menuInit(cache);
 };
 
 exports.cleanup = function(e) {
@@ -100,7 +100,7 @@ function menuOrientationchange(e) {
 }
 
 function setLeftWindow() {
-	var menu = Alloy.createController('menu');
+	var menu = Alloy.createController('elements/menu');
 	
 	Alloy.Globals.UI.Menu = {
 		reloadMenu: menu.reload,
