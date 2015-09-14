@@ -1,7 +1,7 @@
 init();
 function init() {
   	var items = [
-  		{ properties: { itemId: 'page' }, title: { text: 'Test page' }, icon: { image: '/images/menu/timeline.png' } },
+  		{ properties: { itemId: 'elements/page' }, title: { text: 'Test page' }, icon: { image: '/images/menu/timeline.png' } },
   	];
   	
   	$.lvMenu.sections = [ Ti.UI.createListSection({ items: items }) ];
