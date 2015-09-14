@@ -36,9 +36,13 @@ exports.unload = function() {
 
 // == MENU
 
-// TODO: download these modules
-// iOS: https://github.com/viezel/NappDrawer
-// Android: https://github.com/manumaticx/Ti.DrawerLayout
+/* TODO: download these widgets + modules
+Widget: 
+	https://github.com/FokkeZB/nl.fokkezb.drawer
+Modules:
+ 	- iOS: https://github.com/viezel/NappDrawer
+ 	- Android: https://github.com/manumaticx/Ti.DrawerLayout
+*/
 
 exports.getView = function() {
     return $.drawer.window;
