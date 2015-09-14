@@ -1,0 +1,3 @@
+"#drawer": { leftDrawerWidth: 223 }
+"#drawer[platform=ios]": { openDrawerGestureMode: "OPEN_MODE_BEZEL_PANNING_CENTERWINDOW", closeDrawerGestureMode: "CLOSE_MODE_ALL" }
+"#drawer[platform=android]": { backgroundColor: '#0054a5', drawerLayout: true, openDrawerGestureMode: "OPEN_MODE_MARGIN", closeDrawerGestureMode: "CLOSE_MODE_TAP_CENTERWINDOW" }
